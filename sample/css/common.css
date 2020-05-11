@@ -62,9 +62,9 @@ header {
 }
 
 .global-nav ul li a {
+  color: #fff;
   display: block;
   text-decoration: none;
-  color: #fff;
 }
 
 .breadcrumb ol {
@@ -88,7 +88,7 @@ main {
 
 main h1 {
   margin: 0 0 30px 0;
-  padding: 35px 0 35px 65px;
+  padding: 36px 0 36px 66px;
   background-image: url(../images/bg_h1_head.png),url(../images/bg_h1_bottom.png);
   background-repeat: no-repeat,no-repeat;
   background-position: left top,left bottom;
@@ -108,6 +108,7 @@ main h1 {
 .side-banner a {
   text-decoration: none;
 }
+
 .side-banner:not(:last-child){
   margin: 0 0 30px;
 }
