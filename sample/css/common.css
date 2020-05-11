@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  background-color: #F1EEE5;
 }
 
 body {
@@ -47,6 +48,7 @@ header {
 .global-nav ul li {
   background: #392915;
   border: solid 1px #fff;
+  border-radius: 5px;
   height: 60px;
   line-height: 60px;
   text-align: center;
@@ -68,13 +70,13 @@ header {
 }
 
 .breadcrumb ol {
-  color: #800;
+  color: #624f3b;
   display: flex;
   margin: 0 0 30px;
 }
 
 .breadcrumb ol a {
-  color: #800;
+  color: #624f3b;
 }
 
 .breadcrumb ol li:not(:last-child)::after {
@@ -90,6 +92,8 @@ main h1 {
   background-image: url(../images/bg_h1_head.png),url(../images/bg_h1_bottom.png);
   background-repeat: no-repeat,no-repeat;
   background-position: left top,left bottom;
+  color: #624f3b;
+  font-size: 24px;
   margin: 0 0 30px 0;
   padding: 36px 0 36px 66px;
 }
@@ -105,8 +109,9 @@ main h1 {
   width: 240px;
 }
 
-.side-banner a {
-  text-decoration: none;
+.side-banner  {
+  color: #624f3b;
+  font-size: 1.4rem;
 }
 
 .side-banner:not(:last-child){
@@ -115,6 +120,7 @@ main h1 {
 
 .pagetop {
   text-align: right;
+  text-decoration: underline;
 }
 
 footer {
@@ -130,5 +136,5 @@ footer {
 }
 
 .copyright {
-  font-size: 1.4rem;
+  font-size: 20px;
 }
