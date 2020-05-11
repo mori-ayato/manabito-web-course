@@ -47,8 +47,8 @@ header {
 .global-nav ul li {
   background: #392915;
   border: solid 1px #fff;
-  line-height: 60px;
   height: 60px;
+  line-height: 60px;
   text-align: center;
   width: 25%;
 }
@@ -68,9 +68,9 @@ header {
 }
 
 .breadcrumb ol {
-  margin: 0 0 30px;
-  display: flex;
   color: #800;
+  display: flex;
+  margin: 0 0 30px;
 }
 
 .breadcrumb ol a {
@@ -87,11 +87,11 @@ main {
 }
 
 main h1 {
-  margin: 0 0 30px 0;
-  padding: 36px 0 36px 66px;
   background-image: url(../images/bg_h1_head.png),url(../images/bg_h1_bottom.png);
   background-repeat: no-repeat,no-repeat;
   background-position: left top,left bottom;
+  margin: 0 0 30px 0;
+  padding: 36px 0 36px 66px;
 }
 
 .l-contents-wrapper {
@@ -118,10 +118,10 @@ main h1 {
 }
 
 footer {
-  text-align: center;
   border: solid 1px #f1f2f4;
   font-size: 1.4rem;
   padding: 20px 0 10px;
+  text-align: center;
 }
 
 .footer-address{
