@@ -47,12 +47,6 @@ header {
 }
 
 .global-nav ul li {
-  background: #392915;
-  border: solid 1px #fff;
-  border-radius: 5px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
   width: 25%;
 }
 
@@ -65,8 +59,14 @@ header {
 }
 
 .global-nav ul li a {
+  background: #392915;
+  border: solid 1px #fff;
+  border-radius: 5px;
   color: #fff;
   display: block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -146,8 +146,4 @@ footer {
 .footer-address{
   font-style: normal;
   margin: 0 0 6px;
-}
-
-.copyright {
-  font-size: 20px;
 }
