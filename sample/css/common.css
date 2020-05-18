@@ -6,7 +6,7 @@
 
 html {
   font-size: 62.5%;
-  background-color: #F1EEE5;
+  background-color: #f1eee5;
 }
 
 body {
@@ -25,6 +25,7 @@ h1, h2, p {
 
 header,
 .l-wrapper,
+.pagetop,
 footer {
   margin: 0 auto;
   width: 840px;
@@ -69,6 +70,11 @@ header {
   text-decoration: none;
 }
 
+.l-wrapper {
+  padding: 0 0 100px;
+  position: relative;
+}
+
 .breadcrumb ol {
   color: #624f3b;
   display: flex;
@@ -89,13 +95,13 @@ main {
 }
 
 main h1 {
-  background-image: url(../images/bg_h1_head.png),url(../images/bg_h1_bottom.png);
-  background-repeat: no-repeat,no-repeat;
-  background-position: left top,left bottom;
+  background-image: url(../images/bg_h1_head.png), url(../images/bg_h1_bottom.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, left bottom;
   color: #624f3b;
   font-size: 24px;
-  margin: 0 0 30px 0;
   padding: 36px 0 36px 66px;
+  width: 570px;
 }
 
 .l-contents-wrapper {
@@ -109,9 +115,10 @@ main h1 {
   width: 240px;
 }
 
-.side-banner  {
+.side-banner a {
   color: #624f3b;
   font-size: 1.4rem;
+  text-decoration: none;
 }
 
 .side-banner:not(:last-child){
@@ -119,12 +126,18 @@ main h1 {
 }
 
 .pagetop {
+  background: url(../images/bg_arrow.png) no-repeat left center;
+  bottom: 0;
+  height: 28px;
+  position: absolute;
+  right: 0;
   text-align: right;
   text-decoration: underline;
+  width: 170px;
 }
 
 footer {
-  border: solid 1px #f1f2f4;
+  background:url(../images/bg_footer.png) no-repeat left top;
   font-size: 1.4rem;
   padding: 20px 0 10px;
   text-align: center;
