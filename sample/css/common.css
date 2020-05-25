@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.sp {
+  display: none;
+}
+
 html {
   font-size: 62.5%;
   background-color: #f1eee5;
@@ -54,9 +58,6 @@ header {
   background: #ccc;
 }
 
-.global-nav ul li:not(:last-child) {
-  border-right: none;
-}
 
 .global-nav ul li a {
   background: #392915;
@@ -151,18 +152,50 @@ footer {
 @media screen and (max-width: 767px) {
   header,
   .l-wrapper,
-  .pagetop,
   footer{
     width: 100%;
   }
 
+  .sp {
+    display: block;
+  }
+
   main,
   main h1,
- .l-side-nav {
-   width: 100%;
- }
+  .l-side-nav {
+    width: 100%;
+  }
 
- .l-contents-wrapper {
-   flex-wrap: wrap;
- }
+  .l-contents-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .global-nav ul {
+    flex-wrap: wrap;
+  }
+
+  .global-nav ul li {
+    width: 100%;
+  }
+
+  .global-nav ul li a {
+    border: none;
+    border-radius: 0;
+  }
+
+  .global-nav ul li:not(:last-child) {
+    border-bottom: solid 1px #fff;
+  }
+
+  .side-banner {
+    margin: auto;
+    width: 230px;
+  }
+  .side-banner:not(:last-child) {
+    margin: 0 auto 30px;
+  }
+
+  main {
+    margin: 0 0 60px;
+  }
 }
