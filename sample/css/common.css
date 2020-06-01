@@ -105,6 +105,15 @@ main h1 {
   width: 570px;
 }
 
+main h2 {
+  margin: 0 0 50px;
+}
+
+.topics-list li {
+  border-bottom: 1px dotted;
+  margin: 0 0 40px;
+}
+
 .l-contents-wrapper {
   display: flex;
   justify-content: space-between;
