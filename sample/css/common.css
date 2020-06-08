@@ -102,16 +102,6 @@ main h1 {
   color: #624f3b;
   font-size: 24px;
   padding: 36px 0 36px 66px;
-  width: 570px;
-}
-
-main h2 {
-  margin: 0 0 50px;
-}
-
-.topics-list li {
-  border-bottom: 1px dotted;
-  margin: 0 0 40px;
 }
 
 .l-contents-wrapper {
@@ -157,6 +147,40 @@ footer {
   font-style: normal;
   margin: 0 0 6px;
 }
+
+/* ホーム　ここから　*/
+
+main h2 {
+  background-image: url(../images/bg_h2_head.png), url(../images/bg_h2_bottom.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, bottom;
+  color: #624f3b;
+  margin: 0 0 50px;
+  padding: 18px 24px;
+}
+
+.topics-list li {
+  border-bottom: 1px dotted;
+  color: #624f3b;
+  display: flex;
+  margin: 0 0 40px;
+  padding: 0 0 30px 0;
+}
+
+.topics-list time,
+.topics-list span {
+  display: block;
+}
+
+.topics-list time {
+  font-weight: bold;
+  width: 180px;
+}
+
+.topics-list span {
+  width:400px;
+}
+/* ホーム　ここから　*/
 
 @media screen and (max-width: 767px) {
   header,
@@ -204,6 +228,26 @@ footer {
     margin: 0 auto 30px;
   }
 
+/* index start */
+
+  .topics-list {
+    padding: 0 4%;
+  }
+
+  .topics-list li {
+    display: block;
+  }
+
+   .topics-list li time,
+   .topics-list li span {
+     display: block;
+     width: 100%;
+   }
+
+   .topics-list li time {
+     margin: 0 0 4px;
+   }
+/* index end */
   main {
     margin: 0 0 60px;
   }
