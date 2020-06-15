@@ -149,6 +149,9 @@ footer {
 }
 
 /* ホーム　ここから　*/
+.bx-wrapper {
+  margin-bottom: 30px;
+}
 
 main h2 {
   background-image: url(../images/bg_h2_head.png), url(../images/bg_h2_bottom.png);
@@ -229,6 +232,10 @@ main h2 {
   }
 
 /* index start */
+.slideshow img {
+  height: auto;
+  width: 100%;
+}
 
   .topics-list {
     padding: 0 4%;
