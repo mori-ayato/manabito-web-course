@@ -17,7 +17,7 @@ body {
   font-size: 1.6rem;
 }
 
-ol, ul {
+ol, ul, figure {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -25,6 +25,12 @@ ol, ul {
 
 h1, h2, p {
   margin: 0;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
 }
 
 header,
@@ -101,6 +107,7 @@ main h1 {
   background-position: left top, left bottom;
   color: #624f3b;
   font-size: 24px;
+  margin: 0 0 30px;
   padding: 36px 0 36px 66px;
 }
 
@@ -183,6 +190,38 @@ main h2 {
 .topics-list span {
   width:400px;
 }
+
+
+/* コンセプト　ここから　*/
+
+.concept-article h2 {
+  margin: 0 0 16px;
+}
+
+.concept-article:nth-of-type(1) figure {
+  float: right;
+  margin: 0 0 0 26px;
+}
+
+.concept-article:nth-of-type(2) figure {
+  float: left;
+  margin: 0 26px 0 0;
+}
+
+.concept-article:not(:last-child) {
+  margin: 0 0 30px;
+}
+
+.concept-article p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.concept-article p:not(:last-child) {
+  margin: 0 0 20px;
+}
+
+/* コンセプト　ここまで　*/
 /* ホーム　ここから　*/
 
 @media screen and (max-width: 767px) {
