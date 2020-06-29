@@ -196,6 +196,7 @@ main h2 {
 
 .concept-article h2 {
   margin: 0 0 16px;
+  font-size: 1.6rem;
 }
 
 .concept-article:nth-of-type(1) figure {
@@ -271,10 +272,10 @@ main h2 {
   }
 
 /* index start */
-.slideshow img {
-  height: auto;
-  width: 100%;
-}
+  .slideshow img {
+    height: auto;
+    width: 100%;
+  }
 
   .topics-list {
     padding: 0 4%;
@@ -290,11 +291,39 @@ main h2 {
      width: 100%;
    }
 
+   /* index end */
+
    .topics-list li time {
      margin: 0 0 4px;
    }
-/* index end */
+   /* コンセプト ここから */
+
+   .concept-article {
+     padding: 0 4%;
+   }
+
+  .concept-article:nth-of-type(1) figure,
+  .concept-article:nth-of-type(2) figure {
+    float: none;
+    margin: 0 0 20px;
+  }
+
+  .concept-article img {
+    height: auto;
+    width: 100%;
+  }
+
+  /* コンセプト　ここまで */
+
   main {
     margin: 0 0 60px;
   }
+}
+
+@media screen and (max-width: 320px) {
+
+  .concept-article h2 {
+    font-size: 1.8rem;
+  }
+
 }
