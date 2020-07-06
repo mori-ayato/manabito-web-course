@@ -223,6 +223,54 @@ main h2 {
 }
 
 /* コンセプト　ここまで　*/
+
+/* プラン　ここから　*/
+
+.plan-description {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 0 0 30px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.plan-table th,
+.plan-table td {
+  border: solid 1px #807156;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  padding: 18px 14px;
+}
+
+.plan-table thead th {
+  background: #ECE2C4;
+}
+
+.plan-table th:first-child {
+  width: 100px;
+}
+
+.plan-table th {
+  height: 50px;
+  width: 100px;
+}
+
+.plan-table tr:nth-child(odd) {
+  background: #FFFFFF;
+}
+
+.plan-table tr:nth-child(even) {
+  background: #F3EFED;
+}
+
+/* プラン　ここまで　*/
+
 /* ホーム　ここから　*/
 
 @media screen and (max-width: 767px) {
@@ -314,6 +362,24 @@ main h2 {
   }
 
   /* コンセプト　ここまで */
+
+  /* プラン　ここから */
+
+  .plan-description {
+    padding: 0 4%;
+  }
+
+  .plan-table-wrapper {
+    overflow-x: scroll;
+    margin: 0 4%;
+  }
+
+  .plan-table {
+    width: 570px;
+  }
+
+  /* プラン　ここまで */
+
 
   main {
     margin: 0 0 60px;
