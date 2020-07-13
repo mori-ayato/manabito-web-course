@@ -271,6 +271,35 @@ table {
 
 /* プラン　ここまで　*/
 
+/* フェア　ここから　*/
+
+.fair-description {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 0 0 30px;
+}
+
+.fair-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fair-list li {
+  width: 180px;
+  margin:0 0 20px;
+}
+
+.fair-list img {
+
+}
+
+.fair-list figcaption {
+  font-size: 1.4rem;
+}
+
+/* フェア　ここまで　*/
+
 /* ホーム　ここから　*/
 
 @media screen and (max-width: 767px) {
