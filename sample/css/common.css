@@ -281,13 +281,20 @@ table {
 
 .fair-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .fair-list li {
   width: 180px;
-  margin:0 0 20px;
+  margin:0 15px 20px 0;
+}
+
+.fair-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.fair-list li:nth-last-child(-n+3) {
+  margin-bottom: 0;
 }
 
 .fair-list img {
@@ -296,6 +303,7 @@ table {
 
 .fair-list figcaption {
   font-size: 1.4rem;
+  line-height: 1.5;
 }
 
 /* フェア　ここまで　*/
@@ -409,6 +417,34 @@ table {
 
   /* プラン　ここまで */
 
+/* フェア　ここから */
+
+  .fair-description {
+    margin: 0 4% 30px;
+    width: 92%;
+  }
+
+  .fair-list {
+    justify-content: space-between;
+    margin: 0 4%;
+    width: 92%;
+  }
+
+  .fair-list li {
+    margin: 0 0 20px;
+    width: 48%;
+  }
+
+  .fair-list li:nth-last-child(3) {
+    margin-bottom: 20px;
+  }
+
+  .fair-list li img {
+    height: auto;
+    width: 100%;
+  }
+
+/* フェア　ここまで */
 
   main {
     margin: 0 0 60px;
