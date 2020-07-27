@@ -308,6 +308,17 @@ table {
 
 /* フェア　ここまで　*/
 
+/*　コンタクト　ここから　*/
+
+table {
+  border-collapse: collapse;
+}
+
+.contact-table 
+
+
+/* コンタクト　ここまで　*/
+
 /* ホーム　ここから　*/
 
 @media screen and (max-width: 767px) {
