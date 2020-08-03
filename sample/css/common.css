@@ -310,12 +310,73 @@ table {
 
 /*　コンタクト　ここから　*/
 
-table {
-  border-collapse: collapse;
+.contact-description {
+  font-size: 1.4rem;
+  margin: 0 0 30px;
 }
 
-.contact-table 
+.contact-caution {
+  list-style: disc;
+  margin: 0 0 20px;
+  padding: 0 0 0 40px;
+}
 
+.contact-caution li {
+  font-size: 1.4rem;
+}
+
+.contact-caution li:not(:last-child) {
+  margin: 0 0 10px;
+}
+
+.contact-form {
+  border-collapse: collapse;
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.contact-form  th {
+  background-color: #ECE2C4;
+  text-align: left;
+  width: 200px;
+}
+
+.contact-form td {
+  background-color: #fff;
+  width: 370px;
+}
+
+.contact-form th,.contact-form td {
+  border: solid 1px #9e9076;
+  padding: 10px;
+}
+
+.contact-form td input[type=text] {
+  height: 30px;
+  width: 200px;
+}
+
+.contact-form td input[type=email] {
+  height: 30px;
+  width: 250px;
+}
+
+.contact-form td textarea {
+  height: 90px;
+  width: 100%;
+}
+
+.contact-form-submit {
+  background-color: #9d886d;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin: 0 auto;
+  width: 200px;
+}
 
 /* コンタクト　ここまで　*/
 
