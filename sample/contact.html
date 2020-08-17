@@ -48,8 +48,14 @@
                 <td><input name="mall" type="email" id="emall_id" required></td>
               </tr><tr>
                 <th>お問い合わせ種類</th>
-                <td><input type="radio" name="kind" value="0" id="kind0"><label for="kind0">事前のご相談</label>
-                  <input type="radio" name="kind" value="1" id="kind1"><label for="kind1">その他<label></td>
+                <td>
+                  <ul class="kind-list">
+                    <li><input type="radio" name="kind" value="0" id="kind0"><label for="kind0">事前のご相談</label></li>
+                    <li><input type="radio" name="kind" value="1" id="kind1"><label for="kind1">その他<label></li>
+                    <li><input type="radio" name="kind" value="1" id="kind1"><label for="kind1">その他<label></li>
+                    <li><input type="radio" name="kind" value="1" id="kind1"><label for="kind1">その他<label></li>
+                  </ul>
+                </td>
               </tr><tr>
                 <th><label for="detall_id">内容</th>
                 <td><textarea name="detail" id="detall_id"></textarea></td>

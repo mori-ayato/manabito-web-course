@@ -348,6 +348,7 @@ table {
 
 .contact-form th,.contact-form td {
   border: solid 1px #9e9076;
+  font-size: 1.4rem;
   padding: 10px;
 }
 
@@ -361,8 +362,24 @@ table {
   width: 250px;
 }
 
+.kind-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kind-list li {
+  margin: 0 0 10px;
+  width: 50%;
+}
+
+.kind-list li:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
 .contact-form td textarea {
   height: 90px;
+  overflow-y: scroll;
+  resize: none;
   width: 100%;
 }
 
@@ -517,6 +534,33 @@ table {
   }
 
 /* フェア　ここまで */
+
+/* コンタクト　ここから */
+
+  .contact-description {
+    margin: 0 4% 30px;
+    width: 92%;
+  }
+
+  .contact-caution {
+    margin: 0 4% 30px;
+    padding: 0 0 0 20px;
+    width: 92%;
+  }
+
+  .contact-form {
+    margin: 0 4% 30px;
+    width: 92%;
+  }
+
+  .contact-form th,
+  .contact-form td {
+    border: none;
+    display: block;
+    width: 100%;
+  }
+
+/* コンタクト　ここまで */
 
   main {
     margin: 0 0 60px;
