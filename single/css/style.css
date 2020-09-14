@@ -107,8 +107,62 @@ header {
 }
 
 .section-title {
+  display: inline-block;
   font-size: 4rem;
   letter-spacing: 2px;
   margin: 0 0 45px;
+  padding: 0 0 15px;
+  position: relative;
+}
 
+.section-title::before,
+.section-title::after {
+  border-bottom: solid 1px #999;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.section-title::before {
+  bottom: 5px;
+}
+
+.section-text {
+  line-height: 2.5;
+}
+
+.section-text:not(:last-child) {
+  margin: 0 0 30px;
+}
+
+.l-works {
+  background-color: #383634;
+  padding: 110px 0 80px;
+}
+
+.l-skills {
+  background-color: #fff;
+  color: #333;
+  padding: 110px 0;
+}
+
+.skill-list {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.skill-list li {
+  width: calc(100% / 3);
+}
+
+.skill-title {
+  font-size: 2rem;
+  margin: 0 0 20px;
+}
+
+.skill-description {
+  line-height: 2;
 }
