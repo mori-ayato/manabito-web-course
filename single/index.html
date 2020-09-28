@@ -2,8 +2,10 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>シングルページレイアウト</title>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -39,18 +41,21 @@
     <h2 class="section-title">MY SKILLS</h2>
     <ul class="skill-list">
       <li>
+        <i class="far fa-lightbulb skill-icon skill-icon-reverse"></i>
         <h3 class="skill-title">IDEA</h3>
         <p class="skill-description">何かを考えることが好きです。<br>
         新しいことを思いついては試しています。<br>
         ディレクションの経験もあります。</p>
       </li>
       <li>
+        <i class="fas fa-paint-brush skill-icon"></i>
         <h3 class="skill-title">DESIGN</h3>
         <p class="skill-description">見た目の綺麗さだけじゃなくて、<br>
         使いやすさ、情報の伝わりやすさなど、<br>
         その先まで考えることを意識しています。</p>
       </li>
       <li>
+        <i class="fas fa-code skill-icon"></i>
         <h3 class="skill-title">CODING</h3>
         <p class="skill-description">HTML/CSSコーディングも行います。<br>
         正しく美しいマークアップと、<br>
@@ -58,7 +63,16 @@
       </li>
     </ul>
   </section>
-  <section class="l-contact" id="contact"></section>
-  <footer></footer>
+  <section class="l-contact" id="contact">
+    <h2 class="section-title">CONTACT</h2>
+    <form class="contact-form" action="" method="POST">
+      <input type="text" name="name" placeholder="NAME">
+      <textarea name="message" placeholder="MESSAGE"></textarea>
+      <input type="submit" value="SEND">
+    </form>
+  </section>
+  <footer>
+    sample site
+  </footer>
 </body>
 </html>
